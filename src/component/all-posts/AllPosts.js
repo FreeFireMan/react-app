@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ViewPost from "../user/ViewPost";
+import ViewPost from "../post/ViewPost";
 
 class AllPosts extends Component {
 
