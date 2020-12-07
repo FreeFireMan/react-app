@@ -11,6 +11,7 @@ class App extends Component {
                     <Link to={'/users'}>
                         users
                     </Link>
+
                     <Link to={'/posts'}>
                         posts
                     </Link>

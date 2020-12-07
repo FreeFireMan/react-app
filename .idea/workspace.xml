@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="react clear">
-      <change afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/PostService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" />
-    </list>
+    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="react Route" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework" />
+        <entry key="$PROJECT_DIR$" value="LessonFour" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +73,7 @@
       <workItem from="1606947341125" duration="5044000" />
       <workItem from="1607028302629" duration="1995000" />
       <workItem from="1607181472032" duration="8962000" />
-      <workItem from="1607366383853" duration="9092000" />
+      <workItem from="1607366383853" duration="9432000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1607200060715</created>
@@ -108,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607297937067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="react Route">
+      <created>1607378622045</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607378622046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +124,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react" />
     <MESSAGE value="react clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="react clear" />
+    <MESSAGE value="react Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="react Route" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
