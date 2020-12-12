@@ -1,42 +1,33 @@
 import React, {Component} from 'react';
 import UserService from "../services/UserService";
 import User from "../user/User";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
+import FullUser from "../full-user/FullUser";
 
 class AllUsers extends Component {
+    state = {users: []};
     userService = new UserService();
 
-    state = {users: [], selectedUser: null};
-
-    selectUser = (id) => {
-        this.setState({selectedUser: this.state.users.find(value => value.id === id)});
+    async componentDidMount() {
+        let users = await this.userService.getAllUser();
+        this.setState({users});
     }
 
-    async componentDidMount() {
-        let users = await this.userService.getAllUser()
-        this.setState({users})
-    };
-
     render() {
-        let {users, selectedUser} = this.state;
+        let {users} = this.state;
+        let {match: {url}} = this.props;
         return (
             <div>
-                {
-                    users.map(value => <User item={value} key={value.id} selectUser={this.selectUser}/>)
-                }
-                {
-                    selectedUser && <User item={selectedUser} key={selectedUser.id} isShowBtn={true}/>
-                }
-
-
+                {users.map(value => <User item={value} key={value.id}/>)}
+                <hr/>
+                <Route path={`${url}/:id`} render={(props) => {
+                    const {match: {params: {id}}} = props;
+                    return <FullUser {...props} key={id}/>
+                }}/>
+                <hr/>
             </div>
         );
     }
 }
 
-export default AllUsers;
+export default withRouter(AllUsers);
