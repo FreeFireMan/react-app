@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="services">
-      <change afterPath="$PROJECT_DIR$/src/components/all-coments/AllComments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/all-posts/AllPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/coment/Comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/full-comment/FullComment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/full-post/FullPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/CommentService.js" afterDir="false" />
+    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="hw5">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-post/AllPosts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/full-user/FullUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/full-user/FullUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/PostService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/PostService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/UserService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/user/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +139,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
