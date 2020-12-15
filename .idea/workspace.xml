@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="hw5">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="clear">
+      <change afterPath="$PROJECT_DIR$/src/components/all-people/AllPeople.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/full-people/FullPeople.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/people/People.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/PeopleService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,7 @@
       <workItem from="1607718864604" duration="13325000" />
       <workItem from="1607773802300" duration="5304000" />
       <workItem from="1607779695045" duration="17749000" />
+      <workItem from="1608052425876" duration="8156000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1607200060715</created>
