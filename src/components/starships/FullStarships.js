@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
-import StarshipService from "../services/StarshipService";
+import StarshipService from "../../services/StarshipService";
 
 class FullStarships extends Component {
     state = {starship: null};

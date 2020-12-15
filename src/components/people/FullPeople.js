@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
-import PeopleService from "../services/PeopleService";
+import PeopleService from "../../services/PeopleService";
 
 class FullPeople extends Component {
     state = {people: null};

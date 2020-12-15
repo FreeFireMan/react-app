@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
-import PlanetService from "../services/PlanetService";
+import PlanetService from "../../services/PlanetService";
 
 class FullPlanet extends Component {
     state = {planet: null};

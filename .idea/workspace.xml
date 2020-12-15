@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="swapi">
-      <change afterPath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/planets/Planet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/PlanetService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/StarshipService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/starships/AllStarships.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/starships/FullStarships.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/starships/Starship.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/all-people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/AllPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/full-people/FullPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/FullPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people/People.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/People.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/PeopleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/PeopleService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/AllPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people/FullPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/FullPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/PeopleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PeopleService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/PlanetService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PlanetService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/StarshipService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/StarshipService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starships/AllStarships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/starships/AllStarships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/starships/FullStarships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/starships/FullStarships.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\react-app\src\" />
       <recent name="C:\Users\User\WebstormProjects\react-app\src\components\all-people" />
     </key>
   </component>
@@ -97,7 +93,7 @@
       <workItem from="1607718864604" duration="13325000" />
       <workItem from="1607773802300" duration="5304000" />
       <workItem from="1607779695045" duration="17749000" />
-      <workItem from="1608052425876" duration="13081000" />
+      <workItem from="1608052425876" duration="13574000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1607200060715</created>
@@ -134,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608060838259</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="swapi">
+      <created>1608065887482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608065887482</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

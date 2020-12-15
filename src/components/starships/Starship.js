@@ -10,7 +10,6 @@ class Starship extends Component {
     render() {
         let {item} = this.props;
         let {match:{url}} = this.props;
-        console.log(url);
         return (
             <div>
                 {item.name}-<Link to={`${url}/${item.id}`}>-Info</Link>

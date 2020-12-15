@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import StarshipService from "../services/StarshipService";
+import StarshipService from "../../services/StarshipService";
 import Starship from "./Starship";
 import {Route, withRouter} from "react-router-dom";
 import FullStarships from "./FullStarships";

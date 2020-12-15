@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PlanetService from "../services/PlanetService";
+import PlanetService from "../../services/PlanetService";
 import Planet from "./Planet";
 import {Route, withRouter} from "react-router-dom";
 import FullPlanet from "./FullPlanet";

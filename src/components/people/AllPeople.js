@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PeopleService from "../services/PeopleService";
+import PeopleService from "../../services/PeopleService";
 import People from "./People";
 import {Route, withRouter} from "react-router-dom";
 import FullPeople from "./FullPeople";
