@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {withRouter} from "react-router-dom";
+import PeopleService from "../services/PeopleService";
 
 class FullPeople extends Component {
     state = {people: null};
+    peopleService = new PeopleService();
 
-    componentDidMount() {
-        console.log(this.props);
+    async componentDidMount() {
         let {peopleId} = this.props;
-        fetch('https://swapi.dev/api/people/' + peopleId + `/`)
-            .then(value => value.json())
+        await this.peopleService.getPlanetById(peopleId)
             .then(value => this.setState({people: value}))
     }
 

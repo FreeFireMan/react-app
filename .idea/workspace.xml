@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="clear">
-      <change afterPath="$PROJECT_DIR$/src/components/all-people/AllPeople.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/full-people/FullPeople.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/people/People.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/services/PeopleService.js" afterDir="false" />
+    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="swapi">
+      <change afterPath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/planets/Planet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/PlanetService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/services/StarshipService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/starships/AllStarships.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/starships/FullStarships.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/starships/Starship.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/all-people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/AllPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/full-people/FullPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/FullPeople.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/people/People.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/People.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/PeopleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/PeopleService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +62,11 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\react-app\src\components\all-people" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -84,7 +97,7 @@
       <workItem from="1607718864604" duration="13325000" />
       <workItem from="1607773802300" duration="5304000" />
       <workItem from="1607779695045" duration="17749000" />
-      <workItem from="1608052425876" duration="8156000" />
+      <workItem from="1608052425876" duration="13081000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1607200060715</created>
@@ -114,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607378622046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="swapi">
+      <created>1608060838259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608060838259</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +157,8 @@
     <MESSAGE value="react clear" />
     <MESSAGE value="react Route" />
     <MESSAGE value="services" />
-    <option name="LAST_COMMIT_MESSAGE" value="services" />
+    <MESSAGE value="swapi" />
+    <option name="LAST_COMMIT_MESSAGE" value="swapi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

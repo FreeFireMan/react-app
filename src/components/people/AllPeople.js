@@ -1,16 +1,15 @@
 import React, {Component} from 'react';
 import PeopleService from "../services/PeopleService";
-import People from "../people/People";
+import People from "./People";
 import {Route, withRouter} from "react-router-dom";
-import FullPeople from "../full-people/FullPeople";
+import FullPeople from "./FullPeople";
 
 class AllPeople extends Component {
     state = {people: []};
     peopleService = new PeopleService();
 
-    componentDidMount() {
-        fetch('https://swapi.dev/api/people')
-            .then(value => value.json())
+    async componentDidMount() {
+        await this.peopleService.getAllPeople()
             .then(value => this.setState({people: value.results}))
     };
 
