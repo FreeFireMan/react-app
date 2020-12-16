@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, withRouter} from "react-router-dom";
+import {NavLink, withRouter} from "react-router-dom";
 
 class People extends Component {
 
@@ -8,7 +8,7 @@ class People extends Component {
         return (
             <div>
                 Name: {item.name}
-                <Link to={`${url}/${item.id}`}>-Info</Link>
+                <NavLink to={`${url}/${item.id}`}>-Info</NavLink>
             </div>
         );
     }

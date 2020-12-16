@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="swapi">
-      <change beforePath="$PROJECT_DIR$/src/components/people/AllPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/AllPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people/FullPeople.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people/FullPeople.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/planets/AllPlanets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/planets/FullPlanet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/PeopleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PeopleService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/PlanetService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PlanetService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/StarshipService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/StarshipService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships/AllStarships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/starships/AllStarships.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starships/FullStarships.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/starships/FullStarships.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,16 +157,6 @@
     <MESSAGE value="services" />
     <MESSAGE value="swapi" />
     <option name="LAST_COMMIT_MESSAGE" value="swapi" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

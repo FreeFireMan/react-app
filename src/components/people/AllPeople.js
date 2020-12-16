@@ -8,8 +8,8 @@ class AllPeople extends Component {
     state = {people: []};
     peopleService = new PeopleService();
 
-    async componentDidMount() {
-        await this.peopleService.getAllPeople()
+    componentDidMount() {
+        this.peopleService.getAllPeople()
             .then(value => this.setState({people: value.results}))
     };
 
