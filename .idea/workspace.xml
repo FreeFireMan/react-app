@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="hw5">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2a805ef8-f6c6-4e07-86c6-8acad57aa8d6" name="Default Changelist" comment="swapi">
+      <change afterPath="$PROJECT_DIR$/src/components/all-users/AllUsers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/full-user/FullUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,13 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\react-app\src\components\all-users" />
+      <recent name="C:\Users\User\WebstormProjects\react-app\src\" />
+      <recent name="C:\Users\User\WebstormProjects\react-app\src\components\all-people" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -80,6 +91,8 @@
       <workItem from="1607718864604" duration="13325000" />
       <workItem from="1607773802300" duration="5304000" />
       <workItem from="1607779695045" duration="17749000" />
+      <workItem from="1608052425876" duration="13574000" />
+      <workItem from="1608223912160" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="react">
       <created>1607200060715</created>
@@ -109,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607378622046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="swapi">
+      <created>1608060838259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608060838259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="swapi">
+      <created>1608065887482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608065887482</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,17 +159,8 @@
     <MESSAGE value="react clear" />
     <MESSAGE value="react Route" />
     <MESSAGE value="services" />
-    <option name="LAST_COMMIT_MESSAGE" value="services" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="swapi" />
+    <option name="LAST_COMMIT_MESSAGE" value="swapi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
