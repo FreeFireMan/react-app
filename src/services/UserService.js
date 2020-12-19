@@ -1,5 +1,5 @@
 export class UserService {
-    url = 'https://jsonplaceholder.typicode.com/users';
+    url = 'https://jsonplaceholder.typicode.com/posts';
 
     getUsers() {
         return fetch(this.url)
