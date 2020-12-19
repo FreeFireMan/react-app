@@ -15,9 +15,8 @@ class AllUsers extends Component {
     render() {
         let {users} = this.state;
         return (
-
             <div>
-
+                {users.map(value => <User item={value} key={value.id}/>)}
             </div>
         );
     }
