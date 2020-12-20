@@ -11,3 +11,7 @@ export class UserService {
             .then(value => value.json())
     }
 }
+fetch(`https://api.github.com/repos/gudh/ihove/forks`)
+    .then(res => res.ok ? res : Promise.reject(res))
+    .then(data => console.log('+', data))
+    .catch(() => console.log('some error'));
