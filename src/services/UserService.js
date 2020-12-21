@@ -8,10 +8,15 @@ export class UserService {
 
     getUserById(id) {
         return fetch(`${this.url}/${id}`)
-            .then(value => value.json())
+            .then(value => {
+                if(!value.ok){
+                    throw new Error('User not found');
+                }
+               return  value.json()
+            })
     }
 }
-fetch(`https://api.github.com/repos/gudh/ihove/forks`)
-    .then(res => res.ok ? res : Promise.reject(res))
-    .then(data => console.log('+', data))
-    .catch(() => console.log('some error'));
+// fetch(`https://api.github.com/repos/gudh/ihove/forks`)
+//     .then(res => res.ok ? res : Promise.reject(res))
+//     .then(data => console.log('+', data))
+//     .catch(() => console.log('some error'));

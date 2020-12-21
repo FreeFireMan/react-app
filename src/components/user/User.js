@@ -1,9 +1,3 @@
-export default function User(props) {
-    let {item} = props;
-    return (
-        <div>
-            {item.name}
-        </div>
-    );
-}
+const User = ({item}) => <div> {item.name} </div>
 
+export default User;
